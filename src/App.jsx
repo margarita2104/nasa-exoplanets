@@ -52,6 +52,9 @@ function App() {
           <tr>
             <th>Name</th>
             <th>Host Name</th>
+            <th>Discovery Year</th>
+            <th>Discovery Place</th>
+            <th>Discovery Facility</th>
             <th>Discovery Method</th>
             <th>RA</th>
           </tr>
@@ -62,6 +65,9 @@ function App() {
               <tr key={index}>
                 <td>{planet.pl_name || "N/A"}</td>
                 <td>{planet.hostname || "N/A"}</td>
+                <td>{planet.disc_year || "N/A"}</td>
+                <td>{planet.disc_locale || "N/A"}</td>
+                <td>{planet.disc_facility || "N/A"}</td>
                 <td>{planet.discoverymethod || "N/A"}</td>
                 <td>{planet.ra || "N/A"}</td>
               </tr>
