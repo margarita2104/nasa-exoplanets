@@ -1,0 +1,13 @@
+name: nasa-exoplanets
+dependencies:
+  - python
+  - pip
+  - pip:
+      - django
+      - djangorestframework
+      - djangorestframework_simplejwt
+      - beautifulsoup4
+      - flake8
+      - gunicorn
+      - django-cors-headers
+      - pillow
